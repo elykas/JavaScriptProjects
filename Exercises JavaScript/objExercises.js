@@ -75,7 +75,8 @@ const data = [
 
 
 const friends = data.filter(f => f.name === "John Doe")
-                    .map(f => f.friends);
+                    .flatMap(f => f.friends)
+                    
 const newYork = data.filter(f => f.address.city === "New York");
 const olderThan30 = data.filter(d => d.age >= 30);
 const friendsNames = data.flatMap(person => person.friends).map(friend => friend.name);
@@ -83,7 +84,41 @@ const getAllAdresses = data.map(p => {
     const { street, city, state, zip } = p.address;
     return `${street}, ${city}, ${state} ${zip}`;
 });
-const hobbies = data.map(h => h.hobbies)                       
+const hobbies = data.map(h => h.hobbies)   
+
+const livesInChicago = data.find(p => p.address.city === "Chicago");
+const older30 = data.find(p => p.age > 30);
+const hobbieReading = data.find(p => p.hobbies.includes("reading"))
 
 
-console.log(getAllAdresses);
+data.forEach(p => {
+  console.log(p.name);});
+
+data.forEach(p => {
+  p.IsAdult = p.age > 18;
+});
+console.log(data);
+
+data.forEach(p => {
+  console.log(p.name + " " +p.friends.map(f => f.name));
+  
+})
+
+const isCooking = data.some(p => p.hobbies.includes("cooking"));
+
+const isLivesInCalifornia = data.some(p => p.address.city === ("California"));
+const old30 = data.some(p => p.age > 30)
+const allReading = data.every(p => p.hobbies.includes("reading"));
+const sameState = data.every(p => p.address.state === data[0].address.state)
+
+console.log(sameState);
+
+
+
+
+
+  
+
+
+
+ 
