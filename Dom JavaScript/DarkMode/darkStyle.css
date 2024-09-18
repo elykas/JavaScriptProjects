@@ -1,0 +1,69 @@
+.dark .login-page  {
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.dark .login-container{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.dark #button-login{
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.dark .modal {
+    background-color: rgb(86, 81, 81);
+}
+
+.dark .modal-content{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.dark .close-button{
+    color: white;
+}
+
+.dark .cad-page{
+    background-color: rgb(25, 25, 25);
+}
+
+.dark #mode-button{
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.dark #header-text{
+    color: white;
+}
+
+.dark #logout-button{
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.dark .card-page{
+    background-color: rgb(11, 11, 11);
+}
+
+.dark #card-container{
+    background-color: rgb(37, 36, 36);
+}
+
+.dark .card-div{
+    background-color: rgb(114, 114, 114);
+}
+
+.dark #header-card {
+    color: white;
+}
+
+.dark .card-title{
+    color: white;
+}
+
+.dark .card-description{
+    color: white;
+}

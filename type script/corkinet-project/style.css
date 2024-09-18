@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #91f851;
+}
+
+
+
+/* Center the create form */
+.create-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-form, 
+#select-input, 
+#submit-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+#submit-input {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-input:hover {
+    background-color: #0056b3;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px rgb(177, 177, 177);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4ec007;
+    color: white;
+    
+}
+
+td {
+    background-color: #fff;
+    border: 2px solid rgb(94, 236, 94);
+}
+
+
+.table-button{
+    padding: 10px;
+    background-color: #91f851;
+    margin: 5px;
+    border: transparent;
+    border-radius: 8px;
+
+}
+
+/* Hide the edit form initially */
+.edit-page {
+    display: none;
+}
+
+#edit-page .form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#edit-input-location, 
+#edit-select-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+#submit-edit, 
+#back-button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+}
+
+#submit-edit {
+    background-color: #28a745;
+    color: white;
+    margin-right: 10px;
+}
+
+#back-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#submit-edit:hover {
+    background-color: #218838;
+}
+
+#back-button:hover {
+    background-color: #c82333;
+}
+.hidden {
+    display: none;
+}
+.visible{
+    display: flex;
+}

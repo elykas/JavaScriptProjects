@@ -1,0 +1,148 @@
+
+
+
+body{
+    background-color: rgb(216, 236, 248);
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    background-color: rgb(197, 232, 252);
+    height: 200px;
+    width: 450px;
+    border: transparent;
+    box-shadow: 2px 4px 10px rgba(171, 171, 171, 0.5);
+    border-radius: 9px;
+    box-shadow: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+#input-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-in{
+    padding: 10px;
+    align-items: center;
+    color: rgb(21, 124, 184);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#input-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-race{
+    height: 15px;
+    width: 60px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+#text-input{
+    color: black;
+    font-size: 18px;
+}
+
+#start-race-button{
+    background-color: rgb(47, 189, 246);
+    box-shadow: 2px 4px 10px rgb(220, 218, 218);
+    border-radius: 4px;
+    border: transparent;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.race-contain{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.race-line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-color: white;
+    border: 4px solid rgb(148, 210, 248);
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgb(220, 218, 218);
+    height: 70px;
+    padding-left: 0%;
+    margin-top: 7px;
+
+    
+}
+
+.red-line{
+    position: absolute;
+    background-color: red;
+    height:100% ;
+    width: 4px;
+    right: 7px;
+    margin-left: auto;
+}
+
+
+.cars{
+    width: 60px;
+    height: auto;
+    padding-left: 0%;
+    
+}
+
+#result-race{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 95, 152);
+}
+
+.reset-div{
+    display: flex;
+    justify-content: flex-start; 
+    width: 100%; 
+    padding-left: 10px; 
+}
+
+#reset-race-button{
+    background-color: rgb(47, 189, 246);
+    box-shadow: 2px 4px 10px rgb(220, 218, 218);
+    border-radius: 4px;
+    border: transparent;
+    height: 60px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    
+}

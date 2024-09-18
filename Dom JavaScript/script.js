@@ -135,5 +135,27 @@ submit.addEventListener("click",() => {
 })
 
 
+const createDiv = (text,height,width) => {
+    const div = document.createElement("div");
 
+    div.textContent = text;
+    div.style.height = height;
+    div.style.width = width;
+    div.style.position = "relative";
+    div.style.border = "1px solid black";
+    return div;
+};
+
+const createButton = (label,onClick,event) => {
+    const button = document.createElement("button");
+    button.textContent = label;
+    button.addEventListener(event,onClick);
+    return button
+};
+
+const alignText = (alignment) => (div) => {
+    return () => {
+        div.style.textAlign =alignment;
+    };
+};
 

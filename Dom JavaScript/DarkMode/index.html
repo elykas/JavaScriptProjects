@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkStyle.css">
+    <title>Dark/Light</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-container">
+            <h3 id="login-header">Login</h3>
+            <label class="label-login" for="">Email</label>
+            <input id="email-text" type="email" placeholder="Enter your email">
+            <label class="label-login" for="">Password</label>
+            <input id="password-text" type="password" placeholder="Enter your password">
+            <button id="button-login">Login</button>
+        </div>
+    </div >
+    <div id="error-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <p id="modal-message">Invalid login. Please check your email and password.</p>
+        </div>
+      </div>
+    <div class="card-page">
+        <div class="head-card-page">
+            <button id="mode-button">Dark Mode</button>
+            <p id="header-text">Hello</p>
+            <button id="logout-button">LogOut</button>
+        </div>
+        <div id="card-container">
+            <h3 id="header-card">Your Card</h3>
+            <div class="cards-box">
+                <div class="card-div">
+                    <p class="card-title">Card 1</p>
+                    <img class="card-img" src="./images/pexels-chloekalaartist-1043474.jpg" alt="imgcard1">
+                    <p class="card-description">This is the first card</p>
+                </div>
+                <div class="card-div">
+                    <p class="card-title">Card 2</p>
+                    <img class="card-img" src="./images/pexels-chloekalaartist-1043474.jpg" alt="imgcard2">
+                    <p class="card-description">This is the second card</p>
+                </div>
+                <div class="card-div">
+                    <p class="card-title">Card 3</p>
+                    <img class="card-img" src="./images/pexels-chloekalaartist-1043474.jpg" alt="imgcard3">
+                    <p class="card-description">This is the third card</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

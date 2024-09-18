@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main-page">
+        <div id="header">
+            <select name="" id="select-sort">
+                <option id="serialNumber-option" value="serialNumber">serialNumber</option>
+                <option id="batteryLevel-option" value="batteryLevel">batteryLevel</option>
+                <option id="model-option" value="model">model</option>
+            </select>
+            <button id="button-sort">Sort</button>
+            <select name="" id="select-filter">
+                <option id="serialNumber-filter" value="serialNumber">serialNumber</option>
+                <option id="batteryLevel-filter" value="batteryLevel">batteryLevel</option>
+                <option id="model-filter" value="model">model</option>
+            </select>
+            <input type="text" id="filter-list">
+            <button id="filter-button">Filter</button>
+        </div>
+
+        <div class="create-div">
+            <form class="form-div" action="">
+                <input class="input-form"  type="text" placeholder="Serial Number" id="scooter-serialNumber">
+                <input class="input-form" type="text" placeholder="Model" id="model-input">
+                <input class="input-form" type="number" placeholder="Battery Level" id="battery-input">
+                <input class="input-form" type="text" placeholder="Image Url" id="image-input">
+                <input class="input-form" type="text" placeholder="Color Url" id="color-input">
+                <select name="" id="select-input" >
+                    <option value="avaliable">avaliable</option>
+                    <option value="inRepair">inRepair</option>
+                    <option value="unavailable">unavailable</option>
+                </select>
+                <input id="submit-input" type="submit" value="Add Scooter">
+            </form>
+        </div>
+        <div>
+            <table id="scooter-table">
+                <tr class="table-head">
+                    <th class="head-table">Serial Number</th>
+                    <th class="head-table">Model</th>
+                    <th class="head-table">Battery Level</th>
+                    <th class="head-table">Image</th>
+                    <th class="head-table">Color</th>
+                    <th class="head-table">Status</th>
+                    <th class="head-table">Actions</th>
+                </tr>
+                <tbody id="table-body">
+                    
+                </tbody>
+            </table>
+    </div>
+    </section>
+    <section id="edit-page" class="edit-page">
+        <form class="form-div"></form>
+            <input id="edit-input" type="number" placeholder="Battery-Level">
+            <button id="submit-edit">Save</button>
+            <button id="back-button" type="button">Back to List</button>
+        </form>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

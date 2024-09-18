@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.login-page{
+    background-color: rgb(244, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.login-container{
+
+    background-color: white;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(178, 178, 178);
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+}
+
+#login-header{
+    font-size: 38px;
+    padding-bottom: 12px;
+
+}
+
+.label-login{
+    font-size: 25px;
+    padding-bottom: 4px;
+}
+
+#email-text{
+    border: 2px solid rgb(164, 163, 163);
+    border-radius: 4px;
+    height: 50px;
+    box-shadow: 2px 4px 10px rgb(231, 230, 230);
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+
+#password-text{
+    border: 2px solid rgb(164, 163, 163);
+    border-radius: 4px;
+    height: 50px;
+    box-shadow: 2px 4px 10px rgb(231, 230, 230);
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+#button-login{
+    background-color: rgb(11, 144, 233);
+    color: white;
+    font-weight: bold;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(195, 189, 189);
+    border:1px solid rgba(197, 193, 193, 0.173); 
+    height: 90px;
+    width: 120px;
+    margin-left: 65%;
+
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with more transparency */
+    z-index: 1000; /* Above everything else */
+    backdrop-filter: blur(5px); /* Add blur to the background */
+  }
+  
+  
+  .modal-content {
+    background-color: white;
+    margin: 15% auto; /* Center the modal */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Width of the modal */
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: red;
+  }
+  
+  
+
+.card-page{
+    background-color: rgb(235, 234, 234);
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.head-card-page{
+    height: 120px;
+    padding: 40px;
+    padding-left: 7%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(154, 152, 152, 0.173);
+    box-shadow: 2px 4px 10px rgb(195, 189, 189);
+    border-radius: 6px;
+}
+
+#mode-button{
+    height: 55px;
+    width: 125px;
+    background-color: rgb(189, 188, 188); 
+    color: rgb(58, 58, 58); 
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(195, 189, 189);
+    border:1px solid rgba(197, 193, 193, 0.173); 
+}
+
+#header-text{
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow:2px 4px 10px rgb(195, 189, 189); ;
+}
+
+
+#logout-button{
+    height: 55px;
+    width: 125px;
+    background-color: rgb(189, 188, 188); 
+    color: rgb(58, 58, 58); 
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(195, 189, 189);
+    border:1px solid rgba(197, 193, 193, 0.173);
+}
+
+#card-container {
+    background-color: white;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(178, 178, 178);
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+#header-card {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-div {
+    background-color: white;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgb(213, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 70px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card-description {
+    font-size: 12px;
+    text-align: center;
+}
