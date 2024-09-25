@@ -1,0 +1,10 @@
+.hidden {
+    display: none;
+}
+.visible{
+    display: flex;
+}
+
+.bookList-page-class{
+    display: none;
+}

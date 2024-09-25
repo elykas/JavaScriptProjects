@@ -1,0 +1,22 @@
+[
+  {
+    "userName": "brach@gmail.com",
+    "password": "$2b$10$HfUw7OpodECvWUlm0Uhs5ONgpDHFeRh.5X5Mgqnm0foece1tFYaJW",
+    "id": "35f48fba-4ab1-400d-ba4d-ae450e20031f",
+    "books": [
+      { "id": "1", "title": "Lord of the Rings", "author": "R.R. Tolkien" }
+    ]
+  },
+  {
+    "userName": "bra@gmail.com",
+    "password": "$2b$10$3ZxDIhxQKEzHen7EVyupn.PIBbapQV75qIf2WETJ2j3C.fQkPdu4G",
+    "id": "0e12974f-c6d2-4866-92a4-8f3d49da5ee9",
+    "books": []
+  },
+  {
+    "userName": "ely@gmail.com",
+    "password": "$2b$10$DFjjFPjH/t27b1t5ZEIudu3uXVXpDJLM0T2hpfPnaXTO/6haaTHzK",
+    "id": "4ed20b00-90a0-4cbd-a3bc-2f0f4d40829f",
+    "books": []
+  }
+]
